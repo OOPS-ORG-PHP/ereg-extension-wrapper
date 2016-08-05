@@ -5,6 +5,8 @@ Wrapper for PHP ereg extension
 The ereg-wrapper api support ereg extension api, and was designed to work best as with ereg extension.
 If you have PHP7 environment and must need removed ereg extension api, this is good choise.
 
+This APIs have been implemented using PHP [PCRE (Perl compatible regular expression, preg_*)](http://php.net/manual/en/book.pcre.php) internally.
+
 
 ## License
 BSD 2-clause
