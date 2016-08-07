@@ -16,6 +16,6 @@
 		"issues": "https://github.com/OOPS-ORG-PHP/ereg-extension-wrapper/issues"
 	},
 	"require": {
-		"php": ">=7.0.0",
+		"php": ">=7.0.0"
 	}
 }
