@@ -1,6 +1,6 @@
 Wrapper for PHP ereg extension
 ===============================
-[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg?style=plastic)](https://raw.githubusercontent.com/OOPS-ORG-PHP/php-ereg-wrapper/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg?style=plastic)](https://raw.githubusercontent.com/OOPS-ORG-PHP/ereg-extension-wrapper/master/LICENSE)
 
 The ereg-wrapper api support ereg extension api, and was designed to work best as with ereg extension.
 If you have PHP7 environment and must need removed ereg extension api, this is good choise.

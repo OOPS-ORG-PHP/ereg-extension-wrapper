@@ -1,0 +1,21 @@
+{
+	"name": "joungkyun/ereg-extension-wrapper",
+	"description": "pure PHP EREG extension wrapper",
+	"type": "library",
+	"keyword": [ "ereg", "extension", "wrapper" ],
+	"homepage": "https://github.com/OOPS-ORG-PHP/ereg-extension-wrapper",
+	"license": "BSD-2-Clause",
+	"author": [
+		{
+			"name": "JoungKyun Kim",
+			"email": "joungkyun@daum.net",
+			"homepage": "https://joungkyun.github.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/OOPS-ORG-PHP/ereg-extension-wrapper/issues"
+	},
+	"require": {
+		"php": ">=7.0.0",
+	}
+}
