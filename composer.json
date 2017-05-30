@@ -15,6 +15,9 @@
 	"support": {
 		"issues": "https://github.com/OOPS-ORG-PHP/ereg-extension-wrapper/issues"
 	},
+	"autoload": {
+		"files": [ "ereg-wrapper.php" ]
+	},
 	"require": {
 		"php": ">=7.0.0"
 	}

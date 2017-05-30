@@ -68,5 +68,45 @@ echo "matched\n";
 ?>
 ```
 
+## Composer
+
+first, make composer.json as follow:
+```json
+{
+    "require": {
+        "joungkyun/ereg-extension-wrapper": "1.0.*"
+    }
+}
+```
+
+and, install ***ereg-extension-wrapper***
+
+```bash
+[user@host project]$ php composer.phpt install
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing joungkyun/ereg-extension-wrapper (1.0.1): Downloading (100%)
+Writing lock file
+Generating autoload files
+[user@host project]$
+```
+
+and, write code as follow:
+
+```php
+<?php
+require_once 'vendor/autoload.php';
+
+echo 'eregi_replace is supported ';
+if ( function_exists('eregi_replace') )
+    echo 'YES';
+else
+    echo 'NO';
+
+echo "\n";
+?>
+```
+
 ## Credits
 JoungKyun.Kim
