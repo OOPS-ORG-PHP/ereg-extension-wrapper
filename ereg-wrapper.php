@@ -65,8 +65,8 @@ if ( ! function_exists ('ereg') ) {
 	}
 	// }}}
 
-	// {{{ +-- (string) spl_regcase (string $subj)
-	function spl_regcase ($subj) {
+	// {{{ +-- (string) sql_regcase (string $subj)
+	function sql_regcase ($subj) {
 		$len = strlen ($subj);
 		$ret = '';
 
