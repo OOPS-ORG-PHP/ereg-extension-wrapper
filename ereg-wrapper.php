@@ -72,7 +72,7 @@ if ( ! function_exists ('ereg') ) {
 
 		for ( $i=0; $i<$len; $i++ ) {
 			$o = ord ($subj[$i]);
-			if ( ($o > 64 && $o < 91) || ($o > 97 && $o < 123) ) {
+			if ( ($o > 64 && $o < 91) || ($o > 96 && $o < 123) ) {
 				$ret .= sprintf ('[%s%s]', strtoupper ($subj[$i]), strtolower ($subj[$i]));
 				continue;
 			}
